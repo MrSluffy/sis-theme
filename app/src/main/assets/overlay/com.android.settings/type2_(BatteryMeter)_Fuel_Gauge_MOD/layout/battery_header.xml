@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2020 Substratum Icons Special
+   Copyright (C) 2019 Android Open Source Project
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@*com.android.settings:id/battery_entity_header" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@*com.android.settings:style/EntityHeader"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_horizontal" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="@*com.android.settings:dimen/battery_meter_height" >
+    <com.android.settings.fuelgauge.BatteryMeterView android:id="@*com.android.settings:id/battery_header_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingLeft="-1032dp" android:paddingRight="-1032dp" android:layout_marginLeft="-200dp" android:layout_marginRight="-200dp" app:cardElevation="0dip" />
+    <TextView android:textAppearance="@*com.android.settings:style/TextAppearance.EntityHeaderTitle" android:textSize="36.0sp" android:id="@*com.android.settings:id/battery_percent" android:visibility="gone" android:layout_gravity="center|bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="20.0sp" android:textColor="?android:textColorPrimary" android:id="@*com.android.settings:id/summary1" android:layout_width="fill_parent" android:layout_gravity="center|bottom" android:layout_height="wrap_content" android:minLines="3" android:textAlignment="center" />
+    </FrameLayout>
+</LinearLayout>
