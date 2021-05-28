@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+   Copyright (C) 2020 Substratum Icons Special
+   Copyright (C) 2019 Android Open Source Project
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources>
+    <string name="config_batterymeterBoltPath">M4.99,20.47L11.92,7.88L7.85,9.78L9.00,2.85L2.15,12.75L6.13,11.42z</string>
+    <string name="config_batterymeterFillMask">M2.89,4.52L11.19,4.52L11.19,18.80L2.89,18.80z</string>
+    <string name="config_batterymeterPerimeterPath">M4.61,20.52Q4.61,21.02,4.11,21.02L2.89,21.02L1.58,21.02Q0.68,21.04,0.69,19.71L0.68,17.67Q0.70,17.28,1.09,17.29L2.06,17.29Q2.44,17.29,2.43,17.67L2.43,18.26Q2.37,19.40,3.11,19.37L4.11,19.37Q4.62,19.37,4.61,19.88zM5.64,0.70L5.98,2.07L5.28,2.07L5.29,3.79L8.81,3.79L8.81,2.10L8.10,2.08L8.47,0.70zM9.01,19.43L5.08,19.44L5.10,21.12L8.99,21.11zM9.53,19.88Q9.53,19.37,10.04,19.37L11.03,19.37Q11.78,19.40,11.71,18.26L11.71,17.67Q11.71,17.29,12.08,17.29L13.06,17.29Q13.45,17.28,13.46,17.67L13.46,19.71Q13.46,21.04,12.57,21.02L11.26,21.02L10.04,21.02Q9.54,21.02,9.54,20.52zM12.19,6.22Q11.68,6.22,11.68,5.71L11.69,4.71Q11.73,3.97,10.59,4.02L10.00,4.02Q9.62,4.02,9.62,3.64L9.63,2.67Q9.63,2.28,10.01,2.27L12.05,2.29Q13.39,2.30,13.36,3.20L13.34,4.51L13.33,5.73Q13.33,6.22,12.83,6.22zM1.94,6.22Q2.45,6.22,2.45,5.70L2.44,4.71Q2.40,3.97,3.54,4.02L4.13,4.01Q4.51,4.02,4.51,3.64L4.50,2.66Q4.50,2.27,4.11,2.27L2.08,2.29Q0.74,2.30,0.77,3.19L0.79,4.50L0.80,5.72Q0.80,6.22,1.30,6.22zM2.43,11.10L2.42,7.18L0.73,7.19L0.75,11.08zM2.43,16.13L2.42,12.21L0.73,12.22L0.75,16.11zM11.72,11.10L11.73,7.18L13.41,7.19L13.40,11.08zM11.72,16.13L11.73,12.21L13.41,12.22L13.40,16.11z</string>
+    <string name="config_batterymeterPowersavePath">M11.46,12.90C12.59,12.21,12.35,10.60,11.42,10.10L8.57,10.07L8.57,7.38C7.85,6.02,6.42,6.02,5.70,7.38L5.70,10.07L2.70,10.17C1.56,10.65,1.52,12.48,2.95,12.90L5.68,12.86L5.65,15.54C6.22,16.82,7.95,16.80,8.61,15.47L8.63,12.90z</string>
+</resources>
