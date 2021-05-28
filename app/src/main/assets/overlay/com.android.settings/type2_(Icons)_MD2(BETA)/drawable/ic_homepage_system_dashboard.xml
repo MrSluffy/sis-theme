@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <com.android.settingslib.widget.AdaptiveIconShapeDrawable android:height="@*com.android.settings:dimen/dashboard_tile_image_size" android:width="@*com.android.settings:dimen/dashboard_tile_image_size" android:color="@*com.android.settings:color/homepage_system_background" />
+    </item>
+    <item android:height="@*com.android.settings:dimen/dashboard_tile_foreground_image_size" android:width="@*com.android.settings:dimen/dashboard_tile_foreground_image_size" android:drawable="@*com.android.settings:drawable/ic_settings_system_dashboard_white" android:top="@*com.android.settings:dimen/dashboard_tile_foreground_image_inset" android:start="@*com.android.settings:dimen/dashboard_tile_foreground_image_inset" />
+</layer-list>

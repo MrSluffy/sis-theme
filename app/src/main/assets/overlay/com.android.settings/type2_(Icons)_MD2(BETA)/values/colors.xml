@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardview_light_background">@*android:color/transparent</color>
+    <color name="cardview_dark_background">@*android:color/transparent</color>
+    <color name="divider_color">#ffffffff</color>
+    <color name="contextual_card_stroke_color">@*android:color/transparent</color>
+    <color name="hi_noob">@*android:color/transparent</color>
+    <color name="homepage_about_background">#319e9e9e</color>
+    <color name="homepage_accessibility_background">#315011c1</color>
+    <color name="homepage_accounts_background">#31f15b8d</color>
+    <color name="homepage_app_and_notification_background">#31ff7e0f</color>
+    <color name="homepage_battery_background">#31258982</color>
+    <color name="homepage_connected_device_background">#312196f3</color>
+    <color name="homepage_display_background">#31ffa727</color>
+    <color name="homepage_generic_icon_background">#ffd1e3fa</color>
+    <color name="homepage_location_background">#312ec7dc</color>
+    <color name="homepage_network_background">#3172b70f</color>
+    <color name="homepage_privacy_background">#315e97f6</color>
+    <color name="homepage_security_background">#310f9d58</color>
+    <color name="homepage_sound_background">#3101b1af</color>
+    <color name="homepage_storage_background">#31c14ce6</color>
+    <color name="homepage_support_background">#3126459c</color>
+    <color name="homepage_system_background">#316f86da</color>
+</resources>
