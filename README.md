@@ -1,5 +1,7 @@
 # Substratum Icons Special
 
+<img src="https://github.com/MrSluffy/substratum-icons-special/blob/sis10/SIS-Template.jpg?raw=true">
+
  A [substratum theme](https://www.xda-developers.com/substratum-hub/) that will customized your Android UI
 
 
