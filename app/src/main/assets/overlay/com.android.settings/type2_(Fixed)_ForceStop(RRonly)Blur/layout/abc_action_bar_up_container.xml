@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2020 Substratum Icons Special
+   Copyright (C) 2019 Android Open Source Project
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center_vertical"
+	android:background="#00000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<com.google.android.material.card.MaterialCardView
+		android:id="@*com.android.settings:id/settings_homepage_spacer"
+		android:layout_width="fill_parent"
+		android:layout_height="@*com.android.settings:dimen/homepage_spacer_height"
+		android:outlineProvider="none"
+		app:cardBackgroundColor="?*android:colorPrimary"
+		app:layout_scrollFlags="enterAlwaysCollapsed|scroll">
+
+		<com.airbnb.lottie.LottieAnimationView
+			android:layout_gravity="center"
+			android:id="@*com.android.settings:id/home_animation"
+			android:visibility="gone"
+			android:clickable="false"
+			android:layout_width="fill_parent"
+			android:layout_height="250.0dip"
+			app:lottie_autoPlay="true"
+			app:lottie_loop="true"
+			app:lottie_rawRes="@*com.android.settings:raw/home"/>
+
+		<TextView
+			android:textAppearance="@*com.android.settings:style/homepage_spacer_title_style"
+			android:layout_gravity="center"
+			android:id="@*com.android.settings:id/spacer_text"
+			android:visibility="gone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10.0dip"
+			android:text="@*com.android.settings:string/settings_label"/>
+
+		<ImageView
+			android:layout_gravity="center"
+			android:id="@*com.android.settings:id/spacer_image"
+			android:visibility="gone"
+			android:layout_width="@*com.android.settings:dimen/homepage_logo_size"
+			android:layout_height="@*com.android.settings:dimen/homepage_logo_size"
+			android:layout_marginBottom="@*com.android.settings:dimen/homepage_spacer_imageview_marginBottom"
+			android:src="@*com.android.settings:drawable/rr_spacer"/>
+
+			<eightbitlab.com.blurview.BlurView
+		android:id="@*com.android.settings:id/search_bar_blur"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		app:blurOverlayColor="@*com.android.settings:color/blur_floating_bg" />
+	</com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>
