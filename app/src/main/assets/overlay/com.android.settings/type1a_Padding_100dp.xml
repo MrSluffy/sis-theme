@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ <dimen name="abc_action_bar_default_padding_end_material">100dp</dimen>
+
+</resources>
