@@ -5,11 +5,11 @@
 
 ## ScreenShots
  
- 'Lockscreen' https://telegra.ph/Lockscreen-Set-up-with-Screenshot-07-01
+ `LockScreen` https://telegra.ph/Lockscreen-Set-up-with-Screenshot-07-01
 
- 'Header' https://telegra.ph/Header-Clock-Set-up-and-Screenshots-07-01
+ `Header` https://telegra.ph/Header-Clock-Set-up-and-Screenshots-07-01
 
- 'Settings' https://telegra.ph/Preview-S-I-S-SettingsUi-07-01
+ `Settings` https://telegra.ph/Preview-S-I-S-SettingsUi-07-01
 
 
 ## Join in Telegram Channel
