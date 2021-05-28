@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogStyle" parent="@style/Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorAccent">#ff000000</item>
+    </style>
+
+    <string name="launch_dialog_title">Substratum Icons Special</string>
+        <string name="launch_dialog_content">Hello Dear,  \n\n❗Read Attention Message in Every App Section❗ \n\nSupported Rom : \n\nOxygen OS \nCustom Roms based AOSP \nCustom Roms Based LOS \n\nFlowdor Official Add-On Theme \n\n\n</string>
+          <string name="launch_dialog_content_small">This theme is an Add-on Stand Alone, which means you can use it in any Substratum base and also you can use it w/out a base theme</string>
+    <string name="welcome">Thank you for installing this theme.\nSupport development by buying the theme from PlayStore</string>
+     <string name="link_playstore"></string>
+     <string name="mr_sluffy">Hey! Fuck Your Self!</string>
+      <string name="link_paypal">https://www.paypal.me/drewdevz</string>
+    <string name="link_support">https://t.me/sluffy_icons</string>
+    <string name="link_changelog">https://telegra.ph/Substratum-Icons-Special-Changlogs-Version-18-06-23</string>
+    <string name="launch_dialog_positive">Continue</string>
+    <string name="launch_dialog_neutral">Rate</string>
+    <string name="launch_dialog_negative">Exit</string>
+    <string name="do_not_show_again">DND</string>
+    <string name="support">https://t.me/subsiconsspecial</string>
+    <string name="proceed">Continue</string>
+    <string name="avd">https://www.paypal.me/drewdevz</string>
+    <string name="telegram">https://t.me/sluffy_icons</string>
+    <string name="cont">Continue</string>
+</resources>

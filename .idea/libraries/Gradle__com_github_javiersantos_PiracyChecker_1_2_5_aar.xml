@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.javiersantos:PiracyChecker:1.2.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3f53c2e718b96edded48ddf61a113a9/PiracyChecker-1.2.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3f53c2e718b96edded48ddf61a113a9/PiracyChecker-1.2.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3f53c2e718b96edded48ddf61a113a9/PiracyChecker-1.2.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javiersantos/PiracyChecker/1.2.5/5fece236a921c08d0eb55b14eb5d3472d31b085b/PiracyChecker-1.2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

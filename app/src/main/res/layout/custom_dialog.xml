@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center"
+	android:layout_gravity="center"
+	android:background="@drawable/dialog_bg"
+	android:padding="8.0dip"
+	android:layout_width="fill_parent"
+	android:layout_height="480.0dip"
+	android:layout_marginStart="15.0dip"
+	android:layout_marginEnd="15.0dip"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<TextView
+		android:textSize="22.0sp"
+		android:textColor="#ffffffff"
+		android:gravity="center"
+		android:background="@drawable/btn_continue"
+		android:id="@+id/title"
+		android:alpha="1.0"
+		android:paddingLeft="10.0dip"
+		android:paddingRight="10.0dip"
+		android:layout_width="fill_parent"
+		android:layout_height="50.0dip"
+		android:text="@string/launch_dialog_title"
+		android:textAllCaps="false"
+		android:textAlignment="center"/>
+
+	<RelativeLayout
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:id="@+id/body"
+		android:background="@drawable/dialog_bg_content"
+		android:paddingBottom="16.0dip"
+		android:layout_width="fill_parent"
+		android:layout_height="462.0dip"
+		android:layout_below="@+id/title"
+		android:layout_alignParentStart="true">
+
+		<ScrollView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+
+				<TextView
+					android:textSize="18.0sp"
+					android:textColor="#ff2b2f54"
+					android:gravity="left"
+					android:id="@+id/dialog_content"
+					android:background="#00000000"
+					android:layout_width="wrap_content"
+					android:alpha="0.8"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="15.0dip"
+					android:text="@string/launch_dialog_content"
+					android:layout_alignParentTop="true"
+					android:textAlignment="textStart"
+					android:paddingStart="16.0dip"
+					android:paddingEnd="16.0dip"
+					android:layout_alignParentStart="true"/>
+
+				<TextView
+					android:textSize="12.0sp"
+					android:textColor="#ff2b2f54"
+					android:gravity="left"
+					android:id="@+id/dialog_content_small"
+					android:alpha="0.8"
+					android:background="#00000000"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="15.0dip"
+					android:text="@string/launch_dialog_content_small"
+					android:layout_alignParentTop="true"
+					android:textAlignment="textStart"
+					android:paddingStart="16.0dip"
+					android:paddingEnd="50.0dip"
+					android:layout_alignParentStart="true"/>
+
+				<Button
+					android:textSize="14.0sp"
+					android:textColor="#ff2b2f54"
+					android:layout_gravity="center"
+					android:id="@+id/button_donate"
+					android:layout_marginTop="50.0dip"
+					android:background="#00000000"
+					android:layout_width="wrap_content"
+					android:layout_height="30.0dip"
+					android:text="Support Development"
+					android:layout_below="@+id/dialog_content"
+					android:layout_centerInParent="true"
+					android:contentDescription="@string/link_paypal"
+					android:layout_marginStart="32.0dip"
+					android:layout_marginEnd="32.0dip"
+					android:backgroundTint="#00000000"/>
+					
+					<Button
+					android:textSize="14.0sp"
+					android:gravity="center"
+					android:layout_gravity="center"
+					android:layout_marginTop="20.0dip"
+					android:id="@+id/button_continue"
+					android:background="@drawable/btn_continue"
+					android:layout_width="wrap_content"
+					android:layout_height="30.0dip"
+					
+					android:text="@string/proceed"
+					android:padding="5dp"
+					android:layout_below="@+id/dialog_content"
+					android:layout_centerInParent="true"
+					android:layout_marginStart="32.0dip"
+					android:layout_marginEnd="32.0dip"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+		<ImageButton
+			android:layout_gravity="right"
+			android:id="@+id/ic_support"
+			android:background="@drawable/btn_continue"
+			android:layout_width="34.0dip"
+			android:layout_height="34.0dip"
+			android:layout_marginTop="5dp"
+			android:layout_alignParentBottom="true"
+			android:contentDescription="@string/link_support"
+			android:layout_alignParentEnd="true"
+			app:srcCompat="@drawable/ic_telegram"
+			android:layout_marginEnd="15dp"/>
+
+	</RelativeLayout>
+
+	<ImageButton
+		android:id="@+id/changelog"
+		android:background="#00000000"
+		android:layout_width="48.0dip"
+		android:layout_height="48.0dip"
+		android:layout_alignTop="@+id/title"
+		android:contentDescription="@string/link_changelog"
+		android:layout_alignStart="@+id/title"
+		app:srcCompat="@drawable/ic_changelog"
+		android:layout_marginStart="-5dp"/>
+
+	<ImageButton
+		android:id="@+id/playstore"
+		android:background="#00000000"
+		android:layout_width="48.0dip"
+		android:layout_height="0.0dip"
+		android:contentDescription="@string/link_playstore"
+		app:srcCompat="@drawable/ic_playstore"/>
+
+	<CheckBox
+		android:textSize="12.0sp"
+		android:textColor="#ffffffff"
+		android:id="@+id/myCheckBox"
+		android:background="#00000000"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="3dp"
+		android:buttonTint="#ffffffff"
+		android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
+
