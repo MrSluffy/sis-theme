@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2020 Substratum Icons Special
+   Copyright (C) 2019 Android Open Source Project
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources>
+    <string name="config_batterymeterBoltPath">M11.43,11.13L6.15,10.43L6.98,13.30L-0.16,8.30L5.49,9.20L5.07,6.41z</string>
+    <string name="config_batterymeterFillMask">M2.76,2.80L9.36,2.80L9.36,17.80L2.76,17.80z</string>
+    <string name="config_batterymeterPerimeterPath">"M10.87,5.44C11.04,-0.89,1.13,-0.89,1.13,5.41L1.13,14.93C1.13,21.34,10.87,21.34,10.87,14.93M9.20,13.89C9.20,18.96,2.79,18.96,2.79,13.89L2.79,6.36C2.79,1.38,9.32,1.38,9.20,6.39z</string>
+    <string name="config_batterymeterPowersavePath">"M10.87,5.44C11.04,-0.89,1.13,-0.89,1.13,5.41L1.13,14.93C1.13,21.34,10.87,21.34,10.87,14.93M9.20,13.89C9.20,18.96,2.79,18.96,2.79,13.89L2.79,6.36C2.79,1.38,9.32,1.38,9.20,6.39z</string>
+</resources>
