@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <dimen name="keygaurd_indiaction_bottom_padding">@dimen/keygaurd_clock_lock_margin</dimen>
+   <dimen name="keygaurd_clock_lock_margin">37.0dip</dimen>
+    <dimen name="keyguard_clock_lock_layout">380.0dip</dimen>
+    <dimen name="keyguard_indiactoin_bottom_padding">@dimen/keyguard_clock_lock_layout</dimen>
+     <dimen name="hello_dickhead">100dp</dimen>
+        <dimen name="are_you_retard">10dp</dimen>
+</resources>
