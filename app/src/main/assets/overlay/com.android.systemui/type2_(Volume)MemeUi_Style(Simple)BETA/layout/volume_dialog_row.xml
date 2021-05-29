@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2020 Substratum Icons Special
+   Copyright (C) 2019 Android Open Source Project
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<FrameLayout android:theme="@*com.android.systemui:style/qs_theme" android:tag="row" android:background="@*com.android.systemui:drawable/rounded_volume_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@*com.android.systemui:dimen/volume_dialog_row_spacer" android:elevation="@*com.android.systemui:dimen/volume_dialog_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@*com.android.systemui:id/volume_row_slider_frame" android:layout_width="@*com.android.systemui:dimen/volume_dialog_panel_width" android:layout_height="@*com.android.systemui:dimen/volume_dialog_slider_height">
+        <SeekBar android:layout_gravity="center" android:id="@*com.android.systemui:id/volume_row_slider" android:background="@null" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:clickable="true" android:layout_width="@*com.android.systemui:dimen/volume_dialog_slider_height" android:layout_height="@*com.android.systemui:dimen/volume_dialog_panel_width" android:progressDrawable="@*com.android.systemui:drawable/volume_dialog_seekbar" android:thumb="@*android:color/transparent" android:rotation="90.0" android:layoutDirection="rtl" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" />
+        <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.android.systemui.statusbar.AlphaOptimizedImageView android:layout_gravity="center_horizontal" android:id="@*com.android.systemui:id/volume_row_icon" android:clickable="false" android:layout_width="@*com.android.systemui:dimen/volume_dialog_row_icon_size" android:layout_height="@*com.android.systemui:dimen/volume_dialog_tap_target_size" android:layout_marginBottom="-12.0dip" android:scaleType="fitCenter" android:tint="?android:colorAccent" android:soundEffectsEnabled="false" android:layoutDirection="ltr" />
+            <com.android.systemui.statusbar.AlphaOptimizedTextView android:textAppearance="@*com.android.systemui:style/TextAppearance.Volume.Header" android:textStyle="bold" android:textColor="?android:colorAccent" android:ellipsize="end" android:gravity="bottom|center" android:layout_gravity="bottom|center" android:id="@*com.android.systemui:id/volume_row_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:maxLines="1" android:maxLength="10" android:layoutDirection="ltr" />
+        </LinearLayout>
+    </FrameLayout>
+    <include android:layout_gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginStart="6.0dip" layout="@*com.android.systemui:layout/volume_dnd_icon" />
+</FrameLayout>
