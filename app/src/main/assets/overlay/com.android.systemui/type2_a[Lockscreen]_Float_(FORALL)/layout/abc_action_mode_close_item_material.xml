@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2020 Substratum Icons Special
+   Copyright (C) 2019 Android Open Source Project
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="top|start"
+	android:layout_gravity="top|left">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:clipToPadding="false"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:gravity="top|left">
+
+		<TextClock
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:format12Hour="EEEE"
+			android:fontFamily="sans-serif-light"
+			android:theme="@*com.android.systemui:style/TextAppearance.Keyguard"
+			android:textColor="@*com.android.systemui:color/remote_input_hint"
+			android:format24Hour="EEEE"
+			android:textSize="48sp"
+			android:id="@+id/sisday"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TextClock
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:format12Hour="h"
+				android:fontFamily="sans-serif-light"
+				android:textColor="@*com.android.systemui:color/abc_search_url_text_selected"
+				android:format24Hour="HH"
+				android:theme="@*com.android.systemui:style/TextAppearance.Keyguard"
+				android:textSize="48sp"
+				android:id="@+id/sisminsh"/>
+
+			<TextClock
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:format12Hour=":mm"
+				android:fontFamily="sans-serif-light"
+				android:textColor="@*com.android.systemui:color/lb_search_bar_hint_speech_mode"
+				android:format24Hour=":mm"
+				android:theme="@*com.android.systemui:style/TextAppearance.Keyguard"
+				android:textSize="46sp"
+				android:id="@+id/sismins"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TextClock
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:format12Hour="MMMM"
+				android:textColor="@*com.android.systemui:color/lb_search_bar_hint_speech_mode"
+				android:fontFamily="sans-serif-light"
+				android:format24Hour="MMMM"
+				android:theme="@*com.android.systemui:style/TextAppearance.Keyguard"
+				android:textSize="30sp"
+				android:id="@+id/sismins"/>
+
+			<TextClock
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:format12Hour=" dd"
+				android:fontFamily="sans-serif-light"
+				android:textColor="@*com.android.systemui:color/abc_search_url_text_selected"
+				android:format24Hour=" dd"
+				android:theme="@*com.android.systemui:style/TextAppearance.Keyguard"
+				android:textSize="30sp"
+				android:id="@+id/sisminsg"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>
