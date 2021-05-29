@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<type0>
+    <type0a name="Coloring Clock" color="#ffffffff" alpha_allowed="true" >
+        <preset>#303F9F</preset>
+        <preset>#C2185B</preset>
+        <preset>#D32F2F</preset>
+        <resource name="abc_search_url_text_selected" />
+    </type0a>
+    <type0b name="Coloring Date" color="#ffffffff" alpha_allowed="true">
+        <resource name="lb_search_bar_hint_speech_mode" />
+    </type0b>
+    <type0c name="Coloring Background" color="#ff000000" alpha_allowed="true">
+        <preset>#21272b</preset>
+        <preset>#e621272b</preset>
+        <preset>#b321272b</preset>
+        <preset>#8021272b</preset>
+        <resource name="remote_input_hint" />
+    </type0c>
+</type0>
