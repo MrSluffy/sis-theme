@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2020 Substratum Icons Special
+   Copyright (C) 2019 Android Open Source Project
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources>
+    <string name="config_batterymeterBoltPath">M7.77,18.21L5.07,14.56L5.51,14.10L7.13,12.50L5.20,10.32L6.95,8.25L6.51,7.78L4.89,6.19L7.34,3.18L9.23,4.70L7.85,6.53L9.60,8.08L7.85,10.32L9.92,12.59L7.99,14.71L9.19,16.20L9.12,16.33z</string>
+    <string name="config_batterymeterFillMask">M3.15,4.78L11.70,4.78L11.70,18.03L3.15,18.03z</string>
+    <string name="config_batterymeterPerimeterPath">M11.93,18.52Q12.31,18.52,12.34,18.08L12.32,13.85L12.32,4.26Q12.34,3.81,11.96,3.81L11.10,3.81L10.63,2.88L10.09,3.71L4.72,3.71L4.18,2.88L3.71,3.81L2.85,3.81Q2.47,3.81,2.49,4.26L2.49,13.85L2.47,18.08Q2.50,18.52,2.87,18.52L8.96,18.52Q9.27,18.52,9.26,18.83L9.25,20.38Q9.26,20.64,9.00,20.64L2.58,20.68Q0.89,20.68,0.99,18.23L0.99,12.88L0.99,4.07Q0.89,1.63,2.58,1.63L3.42,1.63L4.07,0.82L4.60,1.64L5.19,0.82L5.78,1.64L6.31,0.81L6.88,1.67L7.43,0.79L7.93,1.58L8.49,0.72L9.02,1.55L9.62,0.73L10.20,1.55L10.74,0.73L11.38,1.54L12.22,1.54Q13.91,1.54,13.81,3.98L13.81,12.79L13.81,18.14Q13.91,20.59,12.22,20.59L10.91,20.59Q10.58,20.59,10.58,20.25L10.58,18.82Q10.59,18.51,10.89,18.52L11.88,18.52z</string>
+    <string name="config_batterymeterPowersavePath">M11.93,12.08C13.06,11.40,12.83,9.79,11.89,9.29L9.04,9.26L9.04,6.56C8.33,5.21,6.89,5.21,6.17,6.56L6.17,9.26L3.18,9.36C2.03,9.84,1.99,11.66,3.42,12.08L6.15,12.05L6.12,14.73C6.70,16.00,8.42,15.99,9.08,14.66L9.10,12.08z</string>
+</resources>
