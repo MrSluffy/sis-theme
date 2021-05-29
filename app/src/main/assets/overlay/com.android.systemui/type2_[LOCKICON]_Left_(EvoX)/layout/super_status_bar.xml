@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+ 
+<!-- This is the combined status bar / notification panel window. -->
+
+<com.android.systemui.statusbar.phone.StatusBarWindowView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sysui="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    	
+    
+		<TextView
+		android:textColor="#ffffffff"
+		android:gravity="start|center"
+		android:text="ANDA BITCH DI KOMUNITAS ANDROID"
+		android:singleLine="true"
+		android:layout_gravity="start|center"
+		android:layout_width="0.0dp"
+		android:layout_height="0.0dp"/>
+		
+		<TextView
+		android:textColor="#ffffffff"
+		android:gravity="start|center"
+		android:text="YOU ARE BITCH IN ANDROID COMMUNITY"
+		android:singleLine="true"
+		android:layout_gravity="start|center"
+		android:layout_width="0.0dp"
+		android:layout_height="0.0dp"/>
+ 
+    <ImageView
+        android:id="@*com.android.systemui:id/qs_blur"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        sysui:ignoreRightInset="true" />
+ 
+    <com.android.systemui.statusbar.BackDropView
+            android:id="@*com.android.systemui:id/backdrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            sysui:ignoreRightInset="true"
+            >
+        <ImageView android:id="@*com.android.systemui:id/backdrop_back"
+                   android:layout_width="match_parent"
+                   android:scaleType="centerCrop"
+                   android:layout_height="match_parent" />
+        <ImageView android:id="@*com.android.systemui:id/backdrop_front"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:scaleType="centerCrop"
+                   android:visibility="invisible" />
+    </com.android.systemui.statusbar.BackDropView>
+ 
+    <com.android.systemui.statusbar.ScrimView
+        android:id="@*com.android.systemui:id/scrim_behind"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no"
+        sysui:ignoreRightInset="true"
+        />
+ 
+    <com.android.systemui.navigation.pulse.VisualizerView
+        android:id="@*com.android.systemui:id/visualizerview"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        sysui:ignoreRightInset="true" />
+ 
+    <FrameLayout
+        android:id="@*com.android.systemui:id/status_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@*com.android.systemui:drawable/system_bar_background"
+        sysui:ignoreRightInset="true" />
+ 
+    <include layout="@*com.android.systemui:layout/status_bar_expanded"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+ 
+    <include layout="@*com.android.systemui:layout/brightness_mirror" />
+ 
+    <com.android.systemui.statusbar.ScrimView
+        android:id="@*com.android.systemui:id/scrim_in_front"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no"
+        sysui:ignoreRightInset="true"
+    />
+    
+    
+		<TextView
+		android:textColor="#ffffffff"
+		android:gravity="start|center"
+		android:text="ANDA BITCH DI KOMUNITAS ANDROID"
+		android:singleLine="true"
+		android:layout_gravity="start|center"
+		android:layout_width="0.0dp"
+		android:layout_height="0.0dp"/>
+		
+		<TextView
+		android:textColor="#ffffffff"
+		android:gravity="start|center"
+		android:text="YOU ARE BITCH IN ANDROID COMMUNITY"
+		android:singleLine="true"
+		android:layout_gravity="start|center"
+		android:layout_width="0.0dp"
+		android:layout_height="0.0dp"/>
+ 
+   <LinearLayout
+		android:layout_gravity="left|top"
+		android:orientation="vertical"
+		android:id="@*com.android.systemui:id/lock_icon_container"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="58dp">
+
+		<com.android.systemui.statusbar.phone.LockIcon
+			android:layout_gravity="left"
+			android:layout_marginStart="18dp"
+			android:id="@*com.android.systemui:id/lock_icon"
+			android:layout_width="25dp"
+			android:layout_height="25dp"
+			android:layout_marginTop="@*com.android.systemui:dimen/keyguard_lock_padding"
+			android:src="@*android:drawable/ic_lock"
+			android:scaleType="center"
+			android:contentDescription="@*com.android.systemui:string/accessibility_unlock_button"/>
+
+		<com.android.keyguard.KeyguardMessageArea
+			android:ellipsize="marquee"
+			android:gravity="center"
+			android:id="@*com.android.systemui:id/keyguard_message_area"
+			android:focusable="true"
+			android:layout_marginStart="26dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@*com.android.systemui:dimen/keyguard_lock_padding"
+			android:singleLine="true"
+			style="@*com.android.systemui:style/Keyguard.TextView"/>
+
+	</LinearLayout>
+	
+	
+		<TextView
+		android:textColor="#ffffffff"
+		android:gravity="start|center"
+		android:text="ANDA BITCH DI KOMUNITAS ANDROID"
+		android:singleLine="true"
+		android:layout_gravity="start|center"
+		android:layout_width="0.0dp"
+		android:layout_height="0.0dp"/>
+		
+		<TextView
+		android:textColor="#ffffffff"
+		android:gravity="start|center"
+		android:text="YOU ARE BITCH IN ANDROID COMMUNITY"
+		android:singleLine="true"
+		android:layout_gravity="start|center"
+		android:layout_width="0.0dp"
+		android:layout_height="0.0dp"/>
+</com.android.systemui.statusbar.phone.StatusBarWindowView>
+ 
