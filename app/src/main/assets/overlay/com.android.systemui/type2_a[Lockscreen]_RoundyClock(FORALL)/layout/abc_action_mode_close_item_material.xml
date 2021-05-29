@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2020 Substratum Icons Special
+   Copyright (C) 2019 Android Open Source Project
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_gravity="bottom"
+		android:foregroundGravity="bottom">
+
+		<ImageView
+			android:layout_width="250dip"
+			android:layout_gravity="center"
+			android:layout_height="250dip"
+			android:tint="@*com.android.systemui:color/abc_search_url_text_selected"
+			android:src="@*com.android.systemui:drawable/dessert_flan"/>
+
+		<ImageView
+			android:layout_width="230dip"
+			android:layout_gravity="center"
+			android:tint="@*com.android.systemui:color/remote_input_hint"
+			android:layout_height="230dip"
+			android:src="@*com.android.systemui:drawable/abc_vector_test"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_gravity="center">
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:gravity="center"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_marginTop="47dp"
+					android:layout_width="match_parent"
+					android:layout_height="180dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:layout_marginEnd="10dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+
+						<TextClock
+							android:textColor="@*com.android.systemui:color/abc_search_url_text_selected"
+							android:textAppearance="?*android:attr/textAppearanceLarge"
+							android:textSize="60sp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:format12Hour="hh"
+							android:format24Hour="HH"/>
+
+						<TextClock
+							android:textAppearance="?*android:attr/textAppearanceMedium"
+							android:textSize="25sp"
+							android:textColor="@*com.android.systemui:color/lb_search_bar_hint_speech_mode"
+							android:textAllCaps="true"
+							android:gravity="end"
+							android:layout_gravity="end"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:format12Hour="MMM"
+							android:format24Hour="MMM"/>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:layout_marginStart="10dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+
+						<TextClock
+							android:textColor="@*com.android.systemui:color/abc_search_url_text_selected"
+							android:textAppearance="?*android:attr/textAppearanceLarge"
+							android:textSize="60sp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:format12Hour="mm"
+							android:format24Hour="mm"/>
+
+						<TextClock
+							android:textAppearance="?*android:attr/textAppearanceMedium"
+							android:textSize="25sp"
+							android:textColor="@*com.android.systemui:color/lb_search_bar_hint_speech_mode"
+							android:layout_width="wrap_content"
+							android:textAllCaps="true"
+							android:layout_height="wrap_content"
+							android:format12Hour="EEE"
+							android:format24Hour="EEE"/>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<ImageView
+			android:layout_width="2dip"
+			android:layout_gravity="center"
+			android:layout_height="165dp"
+			android:background="#A3A1A1A1"
+			android:layout_marginBottom="10dp"/>
+
+	</FrameLayout>
