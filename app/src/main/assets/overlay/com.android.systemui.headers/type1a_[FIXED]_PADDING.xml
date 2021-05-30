@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="qs_footer_icon_padding">@*com.android.systemui:dimen/status_bar_padding_start</dimen>
+    
+    <dimen name="status_bar_left_clock_starting_padding">@*com.android.systemui:dimen/status_bar_padding_start</dimen>
+    
+</resources>
