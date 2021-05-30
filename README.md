@@ -26,3 +26,5 @@ Link - https://t.me/sluffy_icons
 Link - https://t.me/subsiconsspecial
 
 ## [Contributors](https://telegra.ph/Credits-And-Thank-08-16)
+
+# [Download](https://www.pling.com/p/1385084/)
