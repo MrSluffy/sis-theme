@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_gravity="center_vertical"
+	android:paddingLeft="24.0dip"
+	android:paddingRight="24.0dip"
+	android:layout_width="wrap_content"
+	android:layout_height="48.0dip"
+	style="@*com.android.systemui:style/BrightnessDialogContainer"
+	xmlns:systemui="http://schemas.android.com/apk/res-auto">
+
+	<!--
+	   Copyright (C) 2020 Substratum Icons Special
+	   Copyright (C) 2019 Android Open Source Project
+	   Licensed under the Apache License, Version 2.0 (the "License");
+	   you may not use this file except in compliance with the License.
+	   You may obtain a copy of the License at
+	        http://www.apache.org/licenses/LICENSE-2.0
+	   Unless required by applicable law or agreed to in writing, software
+	   distributed under the License is distributed on an "AS IS" BASIS,
+	   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	   See the License for the specific language governing permissions and
+	   limitations under the License.
+	-->
+
+	<RelativeLayout
+		android:layout_weight="1.0"
+		android:layout_width="0.0dip"
+		android:layout_height="48.0dip">
+
+		<ImageButton
+			android:layout_gravity="center_vertical"
+			android:id="@*com.android.systemui:id/brightness_left"
+			android:background="?android:selectableItemBackgroundBorderless"
+			android:layout_width="36.0dip"
+			android:layout_height="48.0dip"
+			android:src="@*com.android.systemui:drawable/ic_brightness_left"
+			android:contentDescription="shit"
+			android:layout_marginStart="-2.0dip"
+			android:layout_alignParentStart="true"/>
+
+		<com.android.systemui.settings.ToggleSliderView
+			android:layout_gravity="center_vertical"
+			android:id="@*com.android.systemui:id/brightness_slider"
+			android:paddingLeft="15dip"
+			android:paddingRight="15dip"
+			android:layout_width="match_parent"
+			android:layout_height="48.0dip"
+			android:contentDescription="@*com.android.systemui:string/accessibility_brightness"
+			android:importantForAccessibility="no"
+			android:text="@*com.android.systemui:string/status_bar_settings_auto_brightness_label"/>
+
+		<ImageButton
+			android:layout_gravity="center_vertical"
+			android:id="@*com.android.systemui:id/brightness_right"
+			android:background="?android:selectableItemBackgroundBorderless"
+			android:layout_width="36.0dip"
+			android:layout_height="48.0dip"
+			android:src="@*com.android.systemui:drawable/ic_brightness_right"
+			android:contentDescription="shit"
+			android:layout_alignParentEnd="true"/>
+
+		<ImageButton
+			android:layout_gravity="center_vertical"
+			android:id="@*com.android.systemui:id/brightness_icon"
+			android:background="?android:selectableItemBackgroundBorderless"
+			android:layout_width="0dip"
+			android:layout_height="0dip"
+			android:src="@*com.android.systemui:drawable/ic_qs_brightness_auto_off"
+			android:contentDescription="shit"
+			android:layout_marginStart="8.0dip"
+			android:layout_marginEnd="4.0dip"
+			android:layout_alignParentEnd="true"/>
+
+			</RelativeLayout>
+
+</LinearLayout>
