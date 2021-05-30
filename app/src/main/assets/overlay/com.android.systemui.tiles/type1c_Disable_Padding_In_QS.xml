@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="qs_quick_tile_padding">0dip</dimen>
+        <dimen name="qs_tile_margin_top">20dip</dimen>
+    <dimen name="qs_tile_margin_top_bottom">0dip</dimen>
+        <dimen name="qs_tile_margin_vertical">0dip</dimen>
+        <dimen name="qs_tile_padding_bottom">0dip</dimen>
+    <dimen name="qs_tile_padding_top">0dip</dimen>
+        <dimen name="qs_tile_margin_horizontal">20.0dip</dimen>
+            <dimen name="qs_tile_text_size">12.0sp</dimen>
+</resources>
