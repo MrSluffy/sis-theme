@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+				android:width="48.0dp"
+		android:height="48.0dp"
+		android:viewportWidth="48.0"
+		android:viewportHeight="48.0">
+		<!--
+		   Copyright (C) 2020 Substratum Icons Special
+		   Copyright (C) 2019 Android Open Source Project
+		   Licensed under the Apache License, Version 2.0 (the "License");
+		   you may not use this file except in compliance with the License.
+		   You may obtain a copy of the License at
+		        http://www.apache.org/licenses/LICENSE-2.0
+		   Unless required by applicable law or agreed to in writing, software
+		   distributed under the License is distributed on an "AS IS" BASIS,
+		   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+		   See the License for the specific language governing permissions and
+		   limitations under the License.
+		-->
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M23.96,2.30C36.00,2.30,45.75,12.05,45.75,24.09C45.75,36.13,36.00,45.88,23.96,45.88C11.93,45.88,2.17,36.13,2.17,24.09C2.17,12.05,11.93,2.30,23.96,2.30zM23.96,5.25C13.56,5.25,5.12,13.68,5.12,24.09C5.12,34.50,13.56,42.93,23.96,42.93C34.37,42.93,42.80,34.50,42.80,24.09C42.80,13.68,34.37,5.25,23.96,5.25z"/>
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M34.62,5.64C23.54,3.82,16.62,5.56,13.37,5.61L13.37,32.77C12.98,36.24,17.82,35.88,17.62,32.92L17.76,18.94C17.79,16.06,21.78,16.10,21.74,19.05L21.64,28.97C21.81,31.76,25.58,31.87,26.06,29.21L26.11,19.20C26.24,16.54,30.33,16.54,30.31,19.51L30.23,26.80C30.11,29.73,34.36,29.98,34.65,27.04L34.55,8.26"/>
+	<path
+		android:fillColor="#33FFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M23.96,7.12C14.59,7.12,6.99,14.72,6.99,24.09C6.99,33.46,14.59,41.06,23.96,41.06C33.34,41.06,40.93,33.46,40.93,24.09C40.93,14.72,33.34,7.12,23.96,7.12z"/>
+</vector>

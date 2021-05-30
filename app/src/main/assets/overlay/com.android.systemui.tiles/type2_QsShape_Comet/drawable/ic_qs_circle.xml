@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+				android:width="48.0dp"
+		android:height="48.0dp"
+		android:viewportWidth="48.0"
+		android:viewportHeight="48.0">
+		<!--
+		   Copyright (C) 2020 Substratum Icons Special
+		   Copyright (C) 2019 Android Open Source Project
+		   Licensed under the Apache License, Version 2.0 (the "License");
+		   you may not use this file except in compliance with the License.
+		   You may obtain a copy of the License at
+		        http://www.apache.org/licenses/LICENSE-2.0
+		   Unless required by applicable law or agreed to in writing, software
+		   distributed under the License is distributed on an "AS IS" BASIS,
+		   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+		   See the License for the specific language governing permissions and
+		   limitations under the License.
+		-->
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M3.35,24.35L3.35,10.20C3.35,5.69,5.34,3.47,10.72,3.44L24.01,3.32L37.30,3.44C42.68,3.47,44.67,5.69,44.67,10.20L44.67,24.35L44.67,38.51C44.67,43.02,42.68,45.24,37.30,45.27L24.01,45.38L10.72,45.27C5.34,45.24,3.35,43.02,3.35,38.51L3.35,24.35zM5.90,24.35L5.90,36.76C5.90,40.71,7.64,42.66,12.36,42.69L24.01,42.79L35.66,42.69C40.38,42.66,42.12,40.71,42.12,36.76L42.12,24.35L42.12,11.94C42.12,7.99,40.38,6.05,35.66,6.02L24.01,5.92L12.36,6.02C7.64,6.05,5.90,7.99,5.90,11.94L5.90,24.35z"/>
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M7.42,42.98L21.55,30.63C23.83,28.93,21.19,26.11,19.27,27.87L5.24,40.10M10.52,43.62L19.64,35.72C21.74,34.18,24.06,37.26,21.61,38.71L15.93,43.62M4.30,32.82L8.64,29.17C10.66,27.52,13.13,30.48,10.76,32.05L5.29,36.84"/>
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M40.53,5.70L26.40,18.04C24.12,19.75,26.76,22.56,28.68,20.80L42.71,8.58M37.43,5.05L28.30,12.96C26.21,14.50,23.89,11.42,26.34,9.97L32.02,5.05M43.65,15.85L39.31,19.51C37.29,21.15,34.82,18.19,37.19,16.62L42.66,11.83"/>
+</vector>

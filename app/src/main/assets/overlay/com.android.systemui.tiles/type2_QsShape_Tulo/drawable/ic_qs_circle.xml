@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+				android:width="40.0dp"
+		android:height="40.0dp"
+		android:viewportWidth="40.0"
+		android:viewportHeight="40.0">
+		<!--
+		   Copyright (C) 2020 Substratum Icons Special
+		   Copyright (C) 2019 Android Open Source Project
+		   Licensed under the Apache License, Version 2.0 (the "License");
+		   you may not use this file except in compliance with the License.
+		   You may obtain a copy of the License at
+		        http://www.apache.org/licenses/LICENSE-2.0
+		   Unless required by applicable law or agreed to in writing, software
+		   distributed under the License is distributed on an "AS IS" BASIS,
+		   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+		   See the License for the specific language governing permissions and
+		   limitations under the License.
+		-->
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M9.98,5.56C16.78,-0.08,26.86,0.87,32.49,7.67C38.13,14.48,37.18,24.56,30.38,30.19C23.58,35.82,13.49,34.88,7.86,28.07C2.23,21.27,3.18,11.19,9.98,5.56z"/>
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M5.87,18.25L5.87,32.76C5.93,35.05,9.65,35.50,10.11,32.65L10.11,19.25"/>
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M12.10,23.25L12.10,37.76C12.16,40.05,15.89,40.50,16.35,37.65L16.35,24.25"/>
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M19.37,22.32L19.37,36.83C19.43,39.12,23.15,39.57,23.62,36.72L23.62,23.32"/>
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M31.77,16.06L31.77,30.57C31.84,32.86,35.56,33.32,36.02,30.46L36.02,17.07"/>
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M25.84,23.25L25.84,37.76C25.90,40.05,29.62,40.50,30.08,37.65L30.08,24.25"/>
+</vector>

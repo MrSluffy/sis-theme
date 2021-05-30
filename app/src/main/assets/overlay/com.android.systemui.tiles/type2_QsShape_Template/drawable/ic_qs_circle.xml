@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+				android:width="48.0dp"
+		android:height="48.0dp"
+		android:viewportWidth="48.0"
+		android:viewportHeight="48.0">
+		<!--
+		   Copyright (C) 2020 Substratum Icons Special
+		   Copyright (C) 2019 Android Open Source Project
+		   Licensed under the Apache License, Version 2.0 (the "License");
+		   you may not use this file except in compliance with the License.
+		   You may obtain a copy of the License at
+		        http://www.apache.org/licenses/LICENSE-2.0
+		   Unless required by applicable law or agreed to in writing, software
+		   distributed under the License is distributed on an "AS IS" BASIS,
+		   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+		   See the License for the specific language governing permissions and
+		   limitations under the License.
+		-->
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M44.36,16.62C44.36,5.17,42.05,2.52,29.08,2.35L18.05,2.41C5.53,2.35,3.12,5.13,3.06,16.62L3.00,30.76C2.94,42.27,5.33,45.04,17.85,45.10L29.08,45.08C41.85,45.21,44.02,42.47,44.36,30.76zM9.45,36.64C10.70,36.64,11.71,37.65,11.71,38.89C11.71,40.14,10.70,41.15,9.45,41.15C8.20,41.15,7.19,40.14,7.19,38.89C7.19,37.65,8.20,36.64,9.45,36.64zM38.20,6.66C39.45,6.66,40.46,7.67,40.46,8.92C40.46,10.17,39.45,11.18,38.20,11.18C36.96,11.18,35.95,10.17,35.95,8.92C35.95,7.67,36.96,6.66,38.20,6.66zM9.91,6.86C11.16,6.86,12.17,7.87,12.17,9.12C12.17,10.37,11.16,11.38,9.91,11.38C8.67,11.38,7.66,10.37,7.66,9.12C7.66,7.87,8.67,6.86,9.91,6.86zM37.51,36.15C38.76,36.15,39.77,37.16,39.77,38.41C39.77,39.65,38.76,40.66,37.51,40.66C36.26,40.66,35.25,39.65,35.25,38.41C35.25,37.16,36.26,36.15,37.51,36.15z"/>
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M10.45,40.22C9.74,40.76,8.73,40.61,8.19,39.90C7.65,39.19,7.79,38.17,8.51,37.64C9.22,37.10,10.23,37.24,10.77,37.95C11.31,38.67,11.17,39.68,10.45,40.22zM9.69,37.51L9.26,37.50L9.24,40.43L9.66,40.44z"/>
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M37.50,36.95C38.33,36.95,39.01,37.63,39.01,38.46C39.01,39.29,38.33,39.97,37.50,39.97C36.67,39.97,35.99,39.29,35.99,38.46C35.99,37.63,36.67,36.95,37.50,36.95zM36.55,39.40L36.86,39.65L38.53,37.47L38.21,37.23z"/>
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M39.75,8.48C39.98,9.34,39.48,10.22,38.62,10.46C37.76,10.69,36.88,10.19,36.64,9.33C36.41,8.47,36.91,7.58,37.77,7.35C38.63,7.12,39.51,7.62,39.75,8.48zM36.96,8.19L36.80,8.58L39.50,9.69L39.66,9.29z"/>
+	<path
+		android:fillColor="#FFFFFFFF"
+		android:strokeLineJoin="miter"
+		android:fillType="nonZero"
+		android:strokeLineCap="square"
+		android:pathData="M8.30,8.96C8.40,8.09,9.18,7.46,10.05,7.55C10.92,7.64,11.56,8.43,11.46,9.30C11.37,10.17,10.58,10.80,9.71,10.71C8.84,10.61,8.21,9.83,8.30,8.96zM10.76,10.23L11.05,9.93L8.97,7.94L8.68,8.24z"/>
+</vector>
