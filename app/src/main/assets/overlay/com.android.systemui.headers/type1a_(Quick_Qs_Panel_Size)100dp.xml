@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ <dimen name="qs_quick_header_panel_height">100dp</dimen>
+</resources>
