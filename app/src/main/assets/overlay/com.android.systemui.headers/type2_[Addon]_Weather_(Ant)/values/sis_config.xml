@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="system_ui_aod_date_pattern"></string>
+<string name="abbrev_wday_month_day_no_year"></string>
+<string name="abbrev_wday_month_day_no_year_alarm"></string>
+</resources>

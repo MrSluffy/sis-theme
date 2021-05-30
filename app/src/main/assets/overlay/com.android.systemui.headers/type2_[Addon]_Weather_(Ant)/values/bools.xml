@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<item type="bool" name="config_enableLockScreenRotation">true</item>
+
+<item type="bool" name="config_fuckyou">true</item>
+
+</resources>
