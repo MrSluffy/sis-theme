@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:theme="@*com.android.systemui:style/QSHeaderTheme"
+	android:id="@*com.android.systemui:id/header_text_container"
+	android:visibility="invisible"
+	android:layout_width="fill_parent"
+	android:layout_height="@*com.android.systemui:dimen/qs_header_tooltip_height"
+	android:layout_below="@*com.android.systemui:id/quick_status_bar_system_icons">
+
+	<!--
+	   Copyright (C) 2020 Substratum Icons Special
+	   Copyright (C) 2019 Android Open Source Project
+	   Licensed under the Apache License, Version 2.0 (the "License");
+	   you may not use this file except in compliance with the License.
+	   You may obtain a copy of the License at
+	        http://www.apache.org/licenses/LICENSE-2.0
+	   Unless required by applicable law or agreed to in writing, software
+	   distributed under the License is distributed on an "AS IS" BASIS,
+	   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	   See the License for the specific language governing permissions and
+	   limitations under the License.
+	-->
+
+	<com.android.systemui.qs.QSHeaderInfoLayout
+		android:id="@*com.android.systemui:id/status_container"
+		android:layout_width="0dip"
+		android:layout_height="0dip"
+		android:layout_weight="1.0">
+
+		<LinearLayout
+			android:gravity="center_vertical"
+			android:id="@*com.android.systemui:id/alarm_container"
+			android:focusable="true"
+			android:clickable="true"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent">
+
+			<ImageView
+				android:id="@*com.android.systemui:id/next_alarm_icon"
+				android:visibility="gone"
+				android:layout_width="@*com.android.systemui:dimen/qs_header_alarm_icon_size"
+				android:layout_height="@*com.android.systemui:dimen/qs_header_alarm_icon_size"
+				android:src="@*com.android.systemui:drawable/ic_alarm"
+				android:contentDescription="@*com.android.systemui:string/accessibility_quick_settings_alarm_set"/>
+
+			<com.android.systemui.util.AutoMarqueeTextView
+				android:textAppearance="@*com.android.systemui:style/TextAppearance.QS.Status"
+				android:ellipsize="marquee"
+				android:id="@*com.android.systemui:id/next_alarm_text"
+				android:visibility="gone"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:marqueeRepeatLimit="marquee_forever"
+				android:layout_marginStart="@*com.android.systemui:dimen/qs_header_alarm_text_margin_start"/>
+
+		</LinearLayout>
+
+		<View
+			android:id="@*com.android.systemui:id/status_separator"
+			android:visibility="gone"
+			android:layout_width="@*com.android.systemui:dimen/qs_header_separator_width"
+			android:layout_height="fill_parent"/>
+
+		<LinearLayout
+			android:gravity="center_vertical"
+			android:id="@*com.android.systemui:id/ringer_container"
+			android:focusable="true"
+			android:clickable="true"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent">
+
+			<ImageView
+				android:id="@*com.android.systemui:id/ringer_mode_icon"
+				android:visibility="gone"
+				android:layout_width="@*com.android.systemui:dimen/qs_header_alarm_icon_size"
+				android:layout_height="@*com.android.systemui:dimen/qs_header_alarm_icon_size"/>
+
+			<com.android.systemui.util.AutoMarqueeTextView
+				android:textAppearance="@*com.android.systemui:style/TextAppearance.QS.Status"
+				android:ellipsize="marquee"
+				android:id="@*com.android.systemui:id/ringer_mode_text"
+				android:visibility="gone"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:marqueeRepeatLimit="marquee_forever"
+				android:layout_marginStart="@*com.android.systemui:dimen/qs_header_alarm_text_margin_start"/>
+
+		</LinearLayout>
+
+	</com.android.systemui.qs.QSHeaderInfoLayout>
+
+	<FrameLayout
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent">
+
+		<ImageView
+			android:id="@+id/sluffycustomheader"
+			android:tint="@*com.android.systemui:color/lb_error_message"
+			android:layout_marginStart="@*com.android.systemui:dimen/abc_action_bar_default_padding_start_material"
+			android:layout_width="fill_parent"
+			android:src="@*com.android.systemui:drawable/dessert_kitkat"
+			android:layout_height="@*com.android.systemui:dimen/abc_action_bar_overflow_padding_start_material"
+			android:scaleType="centerCrop"
+			android:layout_gravity="center"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_marginTop="5dp"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="left|center">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:gravity="left">
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextClock
+						android:textColor="?*android:attr/textColorPrimary"
+						android:fontFamily="@*android:string/default_audio_route_category_name"
+						android:textSize="30dp"
+						android:singleLine="true"
+						android:includeFontPadding="false"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:layout_below="@+id/sisline11"
+						android:id="@+id/clock1"
+						android:format12Hour="hh"
+						android:format24Hour="HH"/>
+
+					<View
+						android:layout_width="1.5dp"
+						android:layout_height="14dp"
+						android:layout_marginTop="4dp"
+						android:layout_marginStart="3dp"
+						android:layout_marginEnd="3dp"
+						android:gravity="center"
+						android:layout_gravity="center"
+						android:background="@*android:color/accent_device_default"
+						android:id="@+id/sisring1"/>
+
+					<TextClock
+						android:textColor="?*android:attr/textColorPrimary"
+						android:fontFamily="@*android:string/default_audio_route_category_name"
+						android:textSize="20dp"
+						android:singleLine="true"
+						android:includeFontPadding="false"
+						android:gravity="center"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/clock2"
+						android:layout_toRightOf="@+id/clock1"
+						android:format12Hour="mm"
+						android:format24Hour="mm"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextClock
+						android:textColor="?*android:attr/textColorPrimary"
+						android:textSize="15sp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:format12Hour="EEE, MMM dd"
+						android:format24Hour="EEE, MMM dd"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<include
+				android:layout_gravity="end|center"
+				android:id="@*com.android.systemui:id/carrier_group"
+				android:focusable="false"
+				android:layout_marginTop="10dp"
+				android:gravity="end|center"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				layout="@*com.android.systemui:layout/qs_carrier_group"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:maxHeight="25dp"
+			android:gravity="center"
+			android:layout_marginEnd="10dp"
+			android:layout_marginBottom="13dp"
+			android:layout_gravity="center|right"
+			android:layout_height="25dp">
+
+			<com.android.systemui.BatteryMeterView
+				android:id="@*com.android.systemui:id/battery"
+				android:layout_height="fill_parent"
+				android:gravity="center"
+				android:layout_gravity="center"
+				android:layout_width="wrap_content"
+				android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Clock"/>
+
+		</LinearLayout>
+
+	</FrameLayout>
+
+</LinearLayout>
