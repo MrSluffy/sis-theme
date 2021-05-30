@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:theme="@*com.android.systemui:style/QSHeaderTheme"
+	android:id="@*com.android.systemui:id/header_text_container"
+	android:visibility="invisible"
+	android:paddingStart="@*com.android.systemui:dimen/qs_footer_icon_padding"
+	android:paddingEnd="@*com.android.systemui:dimen/qs_footer_icon_padding"
+	android:layout_width="match_parent"
+	android:layout_height="@*com.android.systemui:dimen/qs_header_tooltip_height"
+	android:layout_below="@*com.android.systemui:id/quick_status_bar_system_icons">
+
+	<!--
+	   Copyright (C) 2020 Substratum Icons Special
+	   Copyright (C) 2019 Android Open Source Project
+	   Licensed under the Apache License, Version 2.0 (the "License");
+	   you may not use this file except in compliance with the License.
+	   You may obtain a copy of the License at
+	        http://www.apache.org/licenses/LICENSE-2.0
+	   Unless required by applicable law or agreed to in writing, software
+	   distributed under the License is distributed on an "AS IS" BASIS,
+	   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	   See the License for the specific language governing permissions and
+	   limitations under the License.
+	-->
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:paddingTop="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<TextClock
+						android:textColor="?*android:colorAccent"
+						android:textSize="50sp"
+						android:singleLine="true"
+						android:includeFontPadding="false"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center_vertical"
+						android:layout_gravity="start|center"
+						android:id="@+id/clock1"
+						android:format12Hour="h"
+						android:format24Hour="HH"/>
+
+					<TextClock
+						android:textColor="?*android:attr/textColorPrimary"
+						android:textSize="50sp"
+						android:singleLine="true"
+						android:includeFontPadding="false"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center_vertical"
+						android:layout_gravity="start|center"
+						android:id="@+id/clock2"
+						android:format12Hour=":mm"
+						android:format24Hour=":mm"/>
+
+					<TextClock
+						android:textColor="?*android:attr/textColorPrimary"
+						android:textSize="20sp"
+						android:singleLine="true"
+						android:textAllCaps="true"
+						android:includeFontPadding="false"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/clock3"
+						android:format12Hour="a"
+						android:layout_gravity="center_vertical"
+						android:format24Hour=""
+						android:layout_marginTop="10dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="-10dp">
+
+					<TextClock
+						android:textColor="?*android:attr/textColorPrimary"
+						android:textSize="19sp"
+						android:layout_marginStart="2dp"
+						android:fontFamily="sans-serif-light"
+						android:layout_width="wrap_content"
+						android:layout_below="@+id/clock1"
+						android:layout_height="wrap_content"
+						android:format12Hour="@*com.android.systemui:string/regrettable_lack_of_easter_egg"
+						android:format24Hour="@*com.android.systemui:string/regrettable_lack_of_easter_egg"/>
+
+				</LinearLayout>
+
+				<com.android.systemui.qs.QSHeaderInfoLayout
+					android:id="@*com.android.systemui:id/status_container"
+					android:layout_width="fill_parent"
+					android:background="@*com.android.systemui:drawable/abc_ic_clear_material"
+					android:paddingStart="3dip"
+					android:paddingEnd="3dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0">
+
+					<FrameLayout
+						android:gravity="left"
+						android:layout_gravity="left"
+						android:orientation="horizontal"
+						android:layout_width="145dp"
+						android:layout_height="wrap_content">
+
+						<com.android.systemui.util.AutoMarqueeTextView
+							android:textAppearance="@*com.android.systemui:style/TextAppearance.QS.Status"
+							android:textColor="?*android:attr/textColorPrimary"
+							android:gravity="left"
+							android:layout_gravity="left"
+							android:layout_marginStart="2dp"
+							android:paddingRight="5dip"
+							android:clickable="true"
+							android:layout_width="wrap_content"
+							android:freezesText="true"
+							android:focusable="true"
+							android:focusableInTouchMode="true"
+							android:marqueeRepeatLimit="marquee_forever"
+							android:scrollHorizontally="true"
+							android:layout_height="wrap_content"
+							android:text="@*com.android.systemui:string/mland"
+							android:ellipsize="marquee"
+							android:singleLine="true"
+							android:lines="1"/>
+
+		<RelativeLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<include
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				layout="@*com.android.systemui:layout/abc_action_bar_up_container"/>
+
+		</RelativeLayout>
+
+					</FrameLayout>
+
+					<FrameLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:background="@*com.android.systemui:drawable/abc_ic_clear_material"
+						android:layout_height="wrap_content">
+
+						<RelativeLayout
+							android:orientation="horizontal"
+							android:background="@*com.android.systemui:drawable/abc_ic_clear_material"
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content">
+
+							<LinearLayout
+								android:gravity="center"
+								android:id="@*com.android.systemui:id/alarm_container"
+								android:focusable="true"
+								android:clickable="true"
+								android:background="@*com.android.systemui:drawable/abc_ic_clear_material"
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent">
+
+								<ImageView
+									android:id="@*com.android.systemui:id/next_alarm_icon"
+									android:gravity="center"
+									android:visibility="gone"
+									android:layout_width="@*com.android.systemui:dimen/qs_header_alarm_icon_size"
+									android:layout_height="@*com.android.systemui:dimen/qs_header_alarm_icon_size"
+									android:src="@*com.android.systemui:drawable/ic_alarm"
+									android:contentDescription="@*com.android.systemui:string/accessibility_quick_settings_alarm_set"/>
+
+								<com.android.systemui.util.AutoMarqueeTextView
+									android:textAppearance="@*com.android.systemui:style/TextAppearance.QS.Status"
+									android:ellipsize="marquee"
+									android:id="@*com.android.systemui:id/next_alarm_text"
+									android:visibility="gone"
+									android:layout_marginTop="-0.5dp"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:singleLine="true"
+									android:marqueeRepeatLimit="marquee_forever"
+									android:layout_marginStart="@*com.android.systemui:dimen/qs_header_alarm_text_margin_start"/>
+
+							</LinearLayout>
+
+							<View
+								android:id="@*com.android.systemui:id/status_separator"
+								android:visibility="gone"
+								android:layout_height="fill_parent"
+								android:layout_width="@*com.android.systemui:dimen/qs_header_separator_width"/>
+
+							<LinearLayout
+								android:gravity="center"
+								android:id="@*com.android.systemui:id/ringer_container"
+								android:focusable="true"
+								android:layout_toRightOf="@+id/fakeone"
+								android:background="@*com.android.systemui:drawable/abc_ic_clear_material"
+								android:clickable="true"
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent">
+
+								<ImageView
+									android:id="@*com.android.systemui:id/ringer_mode_icon"
+									android:gravity="center"
+									android:visibility="gone"
+									android:layout_width="@*com.android.systemui:dimen/qs_header_alarm_icon_size"
+									android:layout_height="@*com.android.systemui:dimen/qs_header_alarm_icon_size"/>
+
+								<com.android.systemui.util.AutoMarqueeTextView
+									android:textAppearance="@*com.android.systemui:style/TextAppearance.QS.Status"
+									android:ellipsize="marquee"
+									android:id="@*com.android.systemui:id/ringer_mode_text"
+									android:layout_marginTop="-0.5dp"
+									android:visibility="gone"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:singleLine="true"
+									android:marqueeRepeatLimit="marquee_forever"
+									android:layout_marginStart="@*com.android.systemui:dimen/qs_header_alarm_text_margin_start"/>
+
+							</LinearLayout>
+
+						</RelativeLayout>
+
+					</FrameLayout>
+
+				</com.android.systemui.qs.QSHeaderInfoLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<RelativeLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="0.2dp"
+			android:paddingBottom="0.5dp"
+			android:layout_gravity="bottom">
+
+			<include
+				android:id="@*com.android.systemui:id/carrier_group"
+				android:focusable="false"
+				android:layout_gravity="bottom"
+				android:layout_marginBottom="0dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				layout="@*com.android.systemui:layout/qs_carrier_group"/>
+
+		</RelativeLayout>
+
+		//for custom header
+
+		<ImageView
+			android:id="@+id/sluffycustomheader"
+			android:tint="@*com.android.systemui:color/lb_error_message"
+			android:layout_marginStart="@*com.android.systemui:dimen/abc_action_bar_default_padding_start_material"
+			android:layout_width="fill_parent"
+			android:src="@*com.android.systemui:drawable/dessert_kitkat"
+			android:layout_height="@*com.android.systemui:dimen/abc_action_bar_overflow_padding_start_material"
+			android:scaleType="centerCrop"/>
+
+	</FrameLayout>
+
+</LinearLayout>

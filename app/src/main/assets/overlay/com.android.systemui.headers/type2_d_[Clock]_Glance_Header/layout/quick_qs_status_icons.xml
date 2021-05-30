@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:theme="@*com.android.systemui:style/QSHeaderTheme"
+	android:id="@*com.android.systemui:id/quick_qs_status_icons"
+	android:paddingTop="@*com.android.systemui:dimen/qs_header_top_padding"
+	android:paddingBottom="16dp"
+	android:focusable="true"
+	android:clickable="false"
+	android:clipChildren="false"
+	android:clipToPadding="false"
+	android:layout_width="fill_parent"
+	android:layout_gravity="center"
+	android:gravity="center"
+	android:layout_height="wrap_content"
+	android:minHeight="20.0dip"
+	android:layout_below="@*com.android.systemui:id/quick_status_bar_system_icons"
+	android:paddingStart="@*com.android.systemui:dimen/qs_footer_icon_padding"
+	android:paddingEnd="@*com.android.systemui:dimen/qs_footer_icon_padding"
+	xmlns:systemui="http://schemas.android.com/apk/res-auto">
+
+	<!--
+	   Copyright (C) 2020 Substratum Icons Special
+	   Copyright (C) 2019 Android Open Source Project
+	   Licensed under the Apache License, Version 2.0 (the "License");
+	   you may not use this file except in compliance with the License.
+	   You may obtain a copy of the License at
+	        http://www.apache.org/licenses/LICENSE-2.0
+	   Unless required by applicable law or agreed to in writing, software
+	   distributed under the License is distributed on an "AS IS" BASIS,
+	   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	   See the License for the specific language governing permissions and
+	   limitations under the License.
+	-->
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:gravity="center"
+		android:layout_height="25dp"
+		android:layout_gravity="center|start">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:layout_height="25dp">
+
+			<TextClock
+				android:textColor="?*android:colorAccent"
+				android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Clock"
+				android:textSize="15sp"
+				android:singleLine="true"
+				android:gravity="center_vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/clock1"
+				android:format12Hour="h"
+				android:format24Hour="HH"
+				android:layout_gravity="center|start"/>
+
+			<TextClock
+				android:textColor="?*android:attr/textColorPrimary"
+				android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Clock"
+				android:textSize="14sp"
+				android:singleLine="true"
+				android:gravity="center_vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/clock2"
+				android:format12Hour=":mm a"
+				android:format24Hour=":mm"
+				android:layout_gravity="center|start"/>
+
+		</LinearLayout>
+
+		<com.android.systemui.statusbar.policy.DateView
+			android:textAppearance="@*com.android.systemui:style/TextAppearance.QS.Status"
+			android:gravity="center"
+			android:layout_gravity="start|center"
+			android:id="@*com.android.systemui:id/date"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:singleLine="true"
+			systemui:datePattern="@*com.android.systemui:string/abbrev_wday_month_day_no_year_alarm"/>
+
+	</LinearLayout>
+
+	<include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@*com.android.systemui:layout/abc_slice_grid" />
+
+</LinearLayout>

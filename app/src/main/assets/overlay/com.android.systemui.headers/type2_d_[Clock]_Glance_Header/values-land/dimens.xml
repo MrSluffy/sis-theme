@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <dimen name="qs_header_tooltip_height">103.0dip</dimen>
+      <dimen name="qs_settings_main">0.0dip</dimen>
+      <dimen name="qs_header_main_layout">@dimen/qs_settings_main</dimen>
+       <dimen name="qs_header_system_icons_area_height">0dip</dimen>
+     <dimen name="qs_header_image_top_margin">20dp</dimen>
+    <dimen name="qs_header_top_padding">10.0dip</dimen>
+    <dimen name="notification_side_paddings">6dp</dimen>
+     <dimen name="notification_divider_height">0.0dip</dimen>
+     <item type="dimen" name="qs_panel_padfing_top">@*com.android.systemui:dimen/hud_z</item>
+     <item type="dimen" name="qs_panel_padfing_topleft">@dimen/qs_header_main_layout</item>
+      <item type="dimen" name="qs_panel_padding_header">@dimen/qs_header_main_layout</item>
+</resources>
