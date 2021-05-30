@@ -25,4 +25,4 @@ Link - https://t.me/sluffy_icons
 
 Link - https://t.me/subsiconsspecial
 
-## [Credits and Thanks](https://telegra.ph/Credits-And-Thank-08-16)
+## [Contributors](https://telegra.ph/Credits-And-Thank-08-16)
