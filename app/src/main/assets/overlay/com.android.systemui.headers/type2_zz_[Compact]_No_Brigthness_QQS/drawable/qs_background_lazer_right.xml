@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android"><item>
+  	    <shape android:shape="rectangle">
+   <solid android:color="@*com.android.systemui:color/qs_background_dark" />
+        <corners android:radius="?*android:dialogCornerRadius" />
+    </shape>
+ </item><item android:top="1.0dip" android:bottom="1.0dip" android:left="1.dip" android:right="1.0dip" >
+        <shape android:shape="rectangle">
+            <solid android:color="@*android:color/accent_device_default" />
+            <corners android:radius="?*android:dialogCornerRadius" />
+               </shape>
+    </item><item android:top="0dip" android:bottom="0dip" android:left="0dip" android:right="0dip" >
+        <shape android:shape="rectangle">
+            <solid android:color="@*com.android.systemui:color/qs_background_dark" />
+            <corners android:radius="?*android:dialogCornerRadius" />
+               </shape>
+    </item> <item android:top="4.0dip" android:bottom="4.0dip" android:left="4.0dip" android:right="4.0dip" >
+        <shape>
+            <solid android:color="@*android:color/accent_device_default" />
+            <corners android:radius="?*android:dialogCornerRadius" />
+        </shape>
+    </item>
+<item android:top="50.0dip" android:left="4.0dip" android:bottom="50.0dip" android:right="2.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@*android:color/accent_device_default" android:endColor="@*android:color/accent_device_default" android:angle="-90.0" android:centerColor="@*android:color/accent_device_default" />
+        </shape>
+    </item> <item android:top="50.0dip" android:left="2.0dip" android:bottom="50.0dip" android:right="4.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@*android:color/accent_device_default" android:endColor="@*android:color/accent_device_default" android:angle="-90.0" android:centerColor="@*android:color/accent_device_default" />
+        </shape>
+    </item> <item android:top="6.0dip" android:bottom="6.0dip" android:left="6.0dip" android:right="6.0dip" >
+        <shape>
+            <solid android:color="@*com.android.systemui:color/qs_background_dark" />
+            <corners android:radius="?*android:dialogCornerRadius" />
+        </shape>
+    </item>
+        <item android:top="50.0dip" android:left="4.0dip" android:bottom="50.0dip" android:right="6.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@*android:color/accent_device_default" android:endColor="@*android:color/accent_device_default" android:angle="-90.0" android:centerColor="@*android:color/accent_device_default" />
+        </shape>
+    </item>
+        <item android:top="50.0dip" android:left="6.0dip" android:bottom="50.0dip" android:right="4.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@*android:color/accent_device_default" android:endColor="@*android:color/accent_device_default" android:angle="-90.0" android:centerColor="@*android:color/accent_device_default" />
+        </shape>
+    </item>
+ <item android:top="9.0dip" android:bottom="9.0dip" android:left="9.0dip" android:right="9.0dip" >
+        <shape>
+            <solid android:color="@*com.android.systemui:color/qs_background_dark" />
+            <corners android:radius="?*android:dialogCornerRadius" />
+        </shape>
+    </item>
+</layer-list>

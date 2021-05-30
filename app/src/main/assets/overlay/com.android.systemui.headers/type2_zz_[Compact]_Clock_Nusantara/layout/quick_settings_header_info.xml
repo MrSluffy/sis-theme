@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@*com.android.systemui:style/QSHeaderTheme" android:id="@*com.android.systemui:id/header_text_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="48dp" android:layout_below="@*com.android.systemui:id/quick_status_bar_system_icons"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--
+     Copyright (C) 2020 Substratum Icons Special
+     Copyright (C) 2019 Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+  -->
+    <com.android.systemui.qs.QSHeaderInfoLayout android:id="@*com.android.systemui:id/status_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:id="@*com.android.systemui:id/alarm_container" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@*com.android.systemui:id/next_alarm_icon" android:visibility="gone" android:layout_width="@*com.android.systemui:dimen/qs_header_alarm_icon_size" android:layout_height="@*com.android.systemui:dimen/qs_header_alarm_icon_size" android:src="@*com.android.systemui:drawable/ic_alarm" android:contentDescription="@*com.android.systemui:string/accessibility_quick_settings_alarm_set" />
+            <com.android.systemui.util.AutoMarqueeTextView android:textAppearance="@*com.android.systemui:style/TextAppearance.QS.Status" android:ellipsize="marquee" android:id="@*com.android.systemui:id/next_alarm_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="@*com.android.systemui:dimen/qs_header_alarm_text_margin_start" />
+        </LinearLayout>
+        <View android:id="@*com.android.systemui:id/status_separator" android:visibility="gone" android:layout_width="@*com.android.systemui:dimen/qs_header_separator_width" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_vertical" android:id="@*com.android.systemui:id/ringer_container" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@*com.android.systemui:id/ringer_mode_icon" android:visibility="gone" android:layout_width="@*com.android.systemui:dimen/qs_header_alarm_icon_size" android:layout_height="@*com.android.systemui:dimen/qs_header_alarm_icon_size" />
+            <com.android.systemui.util.AutoMarqueeTextView android:textAppearance="@*com.android.systemui:style/TextAppearance.QS.Status" android:ellipsize="marquee" android:id="@*com.android.systemui:id/ringer_mode_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="@*com.android.systemui:dimen/qs_header_alarm_text_margin_start" />
+        </LinearLayout>
+    </com.android.systemui.qs.QSHeaderInfoLayout>
+    <include android:layout_gravity="end|center" android:id="@*com.android.systemui:id/carrier_group" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@*com.android.systemui:dimen/qs_status_separator" layout="@*com.android.systemui:layout/qs_carrier_group" />
+</LinearLayout>
