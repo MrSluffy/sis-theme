@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@*com.android.systemui:id/quick_status_bar_system_icons" android:background="@*android:color/transparent" android:paddingTop="@*com.android.systemui:dimen/status_bar_padding_top" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@*android:dimen/quick_qs_total_height" android:paddingStart="@*com.android.systemui:dimen/status_bar_padding_start" android:paddingEnd="@*com.android.systemui:dimen/status_bar_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+  <!--
+     Copyright (C) 2020 Substratum Icons Special
+     Copyright (C) 2019 Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+  -->
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.android.systemui.statusbar.policy.Clock android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Clock" android:gravity="start|center" android:id="@*com.android.systemui:id/clock" android:layout_width="0.0dip" android:layout_height="0.0dip" android:minWidth="48.0dip" android:singleLine="true" android:paddingStart="@*com.android.systemui:dimen/status_bar_start_padding" android:paddingEnd="@*com.android.systemui:dimen/status_bar_end_padding" systemui:showDark="false" />
+    </LinearLayout>
+    <android.widget.Space android:gravity="center" android:id="@*com.android.systemui:id/space" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <include layout="@*com.android.systemui:layout/ongoing_privacy_chip" />
+    <com.android.systemui.statusbar.policy.NetworkTrafficQS android:gravity="center|right" android:id="@*com.android.systemui:id/networkTraffic" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:singleLine="false" android:lineSpacingMultiplier="1.2" android:paddingEnd="@*com.android.systemui:dimen/status_bar_end_padding" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" systemui:showDark="false" />
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@*com.android.systemui:id/qsb_daily_data_usage_layout" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginStart="4.0dip">
+        <ImageView android:id="@*com.android.systemui:id/qsb_daily_data_usage_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@*com.android.systemui:drawable/ic_data_saver_off" />
+        <com.android.systemui.statusbar.info.DataUsageView android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Clock" android:gravity="end|center" android:id="@*com.android.systemui:id/qsb_data_sim_usage" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:singleLine="true" />
+    </LinearLayout>
+          <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.android.systemui.BatteryMeterView android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Clock" android:gravity="end|center" android:id="@*com.android.systemui:id/battery" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:singleLine="true" android:paddingStart="2.0dip" systemui:showDark="false" />
+           </LinearLayout>
+</LinearLayout>

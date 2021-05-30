@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:enabled="true"
+	android:gravity="center"
+	android:layout_width="match_parent"
+	android:layout_height="73.0dp">
+
+	<!--
+	   Copyright (C) 2020 Substratum Icons Special
+	   Copyright (C) 2019 Android Open Source Project
+	   Licensed under the Apache License, Version 2.0 (the "License");
+	   you may not use this file except in compliance with the License.
+	   You may obtain a copy of the License at
+	        http://www.apache.org/licenses/LICENSE-2.0
+	   Unless required by applicable law or agreed to in writing, software
+	   distributed under the License is distributed on an "AS IS" BASIS,
+	   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	   See the License for the specific language governing permissions and
+	   limitations under the License.
+	-->
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<ImageView
+			android:id="@+id/sluffycustomheader"
+			android:tint="@*com.android.systemui:color/lb_error_message"
+			android:layout_marginStart="@*com.android.systemui:dimen/abc_action_bar_default_padding_start_material"
+			android:layout_width="fill_parent"
+			android:src="@*com.android.systemui:drawable/dessert_kitkat"
+			android:layout_height="@*com.android.systemui:dimen/abc_action_bar_overflow_padding_start_material"
+			android:scaleType="centerCrop"
+			android:layout_gravity="center"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_marginTop="2dp"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="left|center">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_marginStart="6dp"
+				android:layout_marginTop="5dp"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="left|center"
+					android:layout_gravity="left">
+
+					<TextClock
+						android:textColor="@*android:color/white"
+						android:textAppearance="?*android:attr/textAppearanceSmall"
+						android:textSize="20sp"
+						android:gravity="left"
+						android:textStyle="bold"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:format12Hour="hh:mm"
+						android:format24Hour="HH:mm"/>
+
+					<TextClock
+						android:textColor="@*android:color/accent_device_default"
+						android:textAppearance="?*android:attr/textAppearanceSmall"
+						android:textSize="20sp"
+						android:textStyle="bold"
+						android:textAllCaps="true"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:format12Hour=""
+						android:format24Hour=""/>
+
+					<RelativeLayout
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"
+						android:id="@*com.android.systemui:id/system_icons_container"
+						android:layout_marginEnd="2.0dp"
+						android:layout_weight="1.0"
+						android:theme="@*com.android.systemui:style/QSHeaderTheme"
+						android:gravity="end"
+						android:layout_gravity="end">
+
+						<include
+							layout="@*com.android.systemui:layout/mland_scorefield"
+							android:layout_alignParentRight="true"/>
+
+					</RelativeLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent">
+
+					<TextClock
+						android:textAppearance="?*android:attr/textAppearanceSmall"
+						android:textColor="@*android:color/white"
+						android:textSize="15sp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:format12Hour="EEE, MMM dd"
+						android:format24Hour="EEE, MMM dd"/>
+
+					<RelativeLayout
+						android:layout_width="0.0dp"
+						android:layout_height="25dp"
+						android:id="@*com.android.systemui:id/system_icons_container"
+						android:layout_weight="1.0"
+						android:theme="@*com.android.systemui:style/QSHeaderTheme"
+						android:layout_marginTop="0dp"
+						android:layout_gravity="end">
+
+						<include
+							layout="@*com.android.systemui:layout/mland"/>
+
+					</RelativeLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</FrameLayout>
+
+</LinearLayout>
