@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <dimen name="qs_quick_header_panel_height">@*com.android.systemui:dimen/abc_action_bar_default_height_material</dimen>
+     <dimen name="abc_action_bar_default_height_material">115.dp</dimen>
+
+</resources>
