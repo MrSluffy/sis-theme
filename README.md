@@ -13,6 +13,8 @@
 
  `Settings` https://telegra.ph/Preview-S-I-S-SettingsUi-07-01
 
+ `QS Shape` https://telegra.ph/SIS-Qs-Shape-Preview-05-30
+
 
 ## Join in Telegram Channel
 
