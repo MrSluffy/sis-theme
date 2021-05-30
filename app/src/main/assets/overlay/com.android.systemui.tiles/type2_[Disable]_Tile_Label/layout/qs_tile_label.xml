@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.tileimpl.ButtonRelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:paddingTop="12.0dip"
+	android:clipChildren="false"
+	android:clipToPadding="false"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:minHeight="48.0dip">
+
+	<LinearLayout
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:id="@*com.android.systemui:id/label_group"
+		android:clipChildren="false"
+		android:clipToPadding="false"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true">
+
+		<Space
+			android:id="@*com.android.systemui:id/expand_space"
+			android:layout_width="20.0dip"
+			android:layout_height="0.0dip"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="0dp"
+			android:layout_height="0dp">
+
+			<TextView
+				android:textAppearance="@*com.android.systemui:style/TextAppearance.QS.TileLabel"
+				android:ellipsize="marquee"
+				android:gravity="center"
+				android:id="@*com.android.systemui:id/tile_label"
+				android:padding="0.0dip"
+				android:clickable="false"
+				android:layout_width="0.0dip"
+				android:layout_height="wrap_content"/>
+
+		</LinearLayout>
+
+		<ImageView
+			android:id="@*com.android.systemui:id/restricted_padlock"
+			android:paddingBottom="@*com.android.systemui:dimen/qs_tile_text_size"
+			android:visibility="gone"
+			android:layout_width="@*com.android.systemui:dimen/qs_tile_text_size"
+			android:layout_height="fill_parent"
+			android:layout_marginLeft="@*com.android.systemui:dimen/restricted_padlock_pading"
+			android:src="@*com.android.systemui:drawable/ic_info"
+			android:scaleType="centerInside"/>
+
+		<ImageView
+			android:id="@*com.android.systemui:id/expand_indicator"
+			android:visibility="gone"
+			android:layout_width="18.0dip"
+			android:layout_height="fill_parent"
+			android:src="@*com.android.systemui:drawable/qs_dual_tile_caret"
+			android:tint="?android:textColorPrimary"
+			android:layout_marginStart="2.0dip"/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="0dp"
+			android:layout_height="0dp">
+
+	<TextView
+		android:textAppearance="@*com.android.systemui:style/TextAppearance.QS.TileLabel.Secondary"
+		android:textColor="?android:textColorSecondary"
+		android:ellipsize="marquee"
+		android:gravity="center"
+		android:id="@*com.android.systemui:id/app_label"
+		android:padding="0.0dip"
+		android:visibility="gone"
+		android:clickable="false"
+		android:layout_width="0.0dp"
+		android:layout_height="0.0dp"
+		android:singleLine="true"
+		android:layout_below="@*com.android.systemui:id/label_group"
+		android:layout_alignStart="@*com.android.systemui:id/label_group"
+		android:layout_alignEnd="@*com.android.systemui:id/label_group"/>
+		
+		</LinearLayout>
+
+	<View
+		android:id="@*com.android.systemui:id/underline"
+		android:background="?android:colorForeground"
+		android:visibility="gone"
+		android:layout_width="30.0dip"
+		android:layout_height="1.0dip"
+		android:layout_marginTop="2.0dip"
+		android:layout_below="@*com.android.systemui:id/label_group"
+		android:alpha="?android:disabledAlpha"
+		android:layout_alignStart="@*com.android.systemui:id/label_group"
+		android:layout_alignEnd="@*com.android.systemui:id/label_group"/>
+
+</com.android.systemui.qs.tileimpl.ButtonRelativeLayout>
+
