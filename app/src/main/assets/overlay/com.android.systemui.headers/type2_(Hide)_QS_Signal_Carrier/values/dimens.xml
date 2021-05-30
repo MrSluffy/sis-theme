@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ <dimen name="abc_action_bar_overflow_padding_start_material">103dp</dimen>
+
+</resources>
