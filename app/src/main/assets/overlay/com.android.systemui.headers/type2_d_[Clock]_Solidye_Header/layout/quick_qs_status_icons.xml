@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:systemui="http://schemas.android.com/apk/res-auto"
+	android:id="@*com.android.systemui:id/quick_qs_status_icons"
+	android:layout_width="fill_parent"
+	android:layout_height="@*com.android.systemui:dimen/qs_header_tooltip_height"
+	android:layout_below="@*com.android.systemui:id/quick_status_bar_system_icons"
+	android:clipChildren="false"
+	android:clipToPadding="false"
+	android:minHeight="20dp"
+	android:clickable="false"
+	android:focusable="true"
+	android:theme="@*com.android.systemui:style/QSHeaderTheme">
+
+	<!--
+	   Copyright (C) 2020 Substratum Icons Special
+	   Copyright (C) 2019 Android Open Source Project
+	   Licensed under the Apache License, Version 2.0 (the "License");
+	   you may not use this file except in compliance with the License.
+	   You may obtain a copy of the License at
+	        http://www.apache.org/licenses/LICENSE-2.0
+	   Unless required by applicable law or agreed to in writing, software
+	   distributed under the License is distributed on an "AS IS" BASIS,
+	   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	   See the License for the specific language governing permissions and
+	   limitations under the License.
+	-->
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<ImageView
+			android:id="@+id/sluffycustomheader"
+			android:tint="@*com.android.systemui:color/lb_error_message"
+			android:layout_marginStart="@*com.android.systemui:dimen/abc_action_bar_default_padding_start_material"
+			android:layout_width="fill_parent"
+			android:src="@*com.android.systemui:drawable/dessert_kitkat"
+			android:layout_height="@*com.android.systemui:dimen/abc_action_bar_overflow_padding_start_material"
+			android:scaleType="centerCrop"
+			android:layout_gravity="center"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_marginTop="5dp"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="left|center">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_marginTop="5dp"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="200dp"
+					android:layout_height="wrap_content"
+					android:gravity="left|center"
+					android:layout_gravity="left">
+
+					<TextClock
+						android:textColor="?*android:attr/textColorPrimary"
+						android:textAppearance="?*android:attr/textAppearanceSmall"
+						android:textSize="20sp"
+						android:gravity="left"
+						android:textStyle="bold"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:format12Hour="hh:mm"
+						android:format24Hour="HH:mm"/>
+
+					<TextClock
+						android:textColor="@*android:color/accent_device_default"
+						android:textAppearance="?*android:attr/textAppearanceSmall"
+						android:textSize="20sp"
+						android:textStyle="bold"
+						android:textAllCaps="true"
+						android:layout_marginStart="6dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:format12Hour="@*com.android.systemui:string/stream_system_enforced"
+						android:format24Hour="@*com.android.systemui:string/stream_system_enforced"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent">
+
+					<TextClock
+						android:textAppearance="?*android:attr/textAppearanceSmall"
+						android:textColor="?*android:attr/textColorPrimary"
+						android:textSize="15sp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:format12Hour="dd MMMM yyyy"
+						android:format24Hour="dd MMMM yyyy"/>
+
+					<com.android.systemui.statusbar.phone.StatusIconContainer
+						android:id="@*com.android.systemui:id/statusIcons"
+						android:layout_width="0dp"
+						android:layout_gravity="center|right"
+						android:gravity="center|right"
+						android:layout_marginBottom="9dp"
+						android:layout_height="fill_parent"
+						android:layout_weight="1"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:maxHeight="25dp"
+			android:gravity="center"
+			android:layout_marginEnd="10dp"
+			android:layout_marginBottom="13dp"
+			android:layout_gravity="center|right"
+			android:layout_height="25dp">
+
+			<com.android.systemui.BatteryMeterView
+				android:id="@*com.android.systemui:id/batteryRemainingIcon"
+				android:layout_height="fill_parent"
+				android:gravity="center"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center"
+				systemui:textAppearance="@*com.android.systemui:style/TextAppearance.QS.Status"/>
+
+		</LinearLayout>
+
+	</FrameLayout>
+
+	<com.android.systemui.statusbar.policy.DateView
+		android:id="@*com.android.systemui:id/date"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="start|center"
+		android:gravity="start|center"
+		android:singleLine="true"
+		android:textAppearance="@*com.android.systemui:style/TextAppearance.QS.Status"
+		systemui:datePattern=""/>
+
+</LinearLayout>
