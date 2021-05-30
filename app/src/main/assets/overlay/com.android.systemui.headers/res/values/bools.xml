@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<bool name="config_enable_qs_tile_tinting">true</bool>
+	
+    <bool name="config_batteryInQSPanel">true</bool>
+    <item type="bool" name="config_enableLockScreenRotation">true</item>
+
+</resources>

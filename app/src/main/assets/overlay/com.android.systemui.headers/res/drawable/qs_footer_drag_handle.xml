@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<layer-list  xmlns:android="http://schemas.android.com/apk/res/android">
+ <item>
+<shape android:shape="rectangle" android:tint="@*android:color/accent_device_default">
+    <solid android:color="#7a807777" />
+    <corners android:radius="3.0dip" />
+</shape>
+    </item>
+</layer-list>
