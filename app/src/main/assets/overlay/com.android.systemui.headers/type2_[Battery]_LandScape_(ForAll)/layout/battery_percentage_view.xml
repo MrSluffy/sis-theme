@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Clock"
+	android:textColor="?android:textColorPrimary"
+	android:gravity="start|center"
+	android:id="@*com.android.systemui:id/battery_percentage_view"
+	android:layout_width="0.0dp"
+	android:layout_height="0.0dp"
+	android:singleLine="true"
+	android:importantForAccessibility="no"
+	android:visibility="invisible"/>
+
