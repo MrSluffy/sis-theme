@@ -11,6 +11,8 @@
 
  `Header` https://telegra.ph/Header-Clock-Set-up-and-Screenshots-07-01
 
+ `Brightness Slider` https://telegra.ph/Brightness-Slider-Preview-05-30
+
  `Settings` https://telegra.ph/Preview-S-I-S-SettingsUi-07-01
 
  `QS Shape` https://telegra.ph/SIS-Qs-Shape-Preview-05-30
