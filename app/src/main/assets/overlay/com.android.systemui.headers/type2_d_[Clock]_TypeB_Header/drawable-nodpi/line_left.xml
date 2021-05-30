@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+	<gradient android:startColor="@*android:color/profile_badge_1" android:endColor="@*android:color/profile_badge_3" android:angle="315" android:centerColor="@*android:color/profile_badge_2" />
+	<corners android:radius="30dp" />
+</shape>
